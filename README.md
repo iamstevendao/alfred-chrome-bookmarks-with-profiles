@@ -1,20 +1,18 @@
-# alfred-open-with-sublime-merge
-### Alfred workflow for opening a folder with Sublime Merge
+# alfred-chrome-bookmarks-with-profiles
 
-<p align="center">
-<img alt="open-with-sublime-merge" src="https://thumbs.gfycat.com/ColorfulImpracticalCanary-size_restricted.gif"/>
-</p>
-
-works with Alfred 3
+## Alfred workflow for opening a Chrome bookmark with its profile
 
 ## Usage
-- Clone this repo and install `Open-with-Sublime-Merge.alfredworkflow`  
-**OR**: Download from [Packal](http://www.packal.org/workflow/open-with-sublime-merge)
+
+- Clone this repo and install `Chrome Bookmarks with Profiles.alfredworkflow`
+  **OR**: Download from [Packal](http://www.packal.org/workflow/chrome-bookmarks-with-profiles)
 - Open Alfred:
-  ```bash
-  merge <folder-name>
+
+  ```sh
+  chr <bookmark-name>
   ```
-  - &#x23ce; (`return`) to open with Sublime Merge
-  - &#x2325; (`option`) + &#x23ce; (`return`) to open in Finder 
+
+  - &#x23ce; (`return`) to open with Chrome in the bookmark's profile
+  - &#x2325; (`option`) + &#x23ce; (`return`) to copy to clipboard
 
 made with &#x2764; by [Steven](https://github.com/iamstevendao).
