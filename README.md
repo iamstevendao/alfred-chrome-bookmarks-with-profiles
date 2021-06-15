@@ -1,11 +1,11 @@
 # alfred-chrome-bookmarks-with-profiles
 
-## Alfred workflow for opening a Chrome bookmark with its profile
+> Alfred workflow for opening a Chrome bookmark with its profile
 
 ## Usage
 
 - Clone this repo and install `Chrome Bookmarks with Profiles.alfredworkflow`
-  **OR**: Download from [Packal](http://www.packal.org/workflow/chrome-bookmarks-with-profiles)
+  **OR**: Download from [Packal](http://www.packal.org/workflow/open-chrome-bookmark-its-profile)
 - Open Alfred:
 
   ```sh
