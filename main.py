@@ -29,8 +29,8 @@ def get_bookmarks(browser, path):
                   "profile": folder,
                 },
                 "subtitle": "{} - Bookmarks Bar: {}".format(profileName, child['url']),
-                "title": "{}".format(child['name'].encode('utf-8')),
-                "match": "{} {} Bookmarks Bar {}".format(child['name'].encode('utf-8'), profileName, child['url']),
+                "title": "{}".format(child['name']),
+                "match": "{} {} Bookmarks Bar {}".format(child['name'], profileName, child['url']),
               })
 
             for topChild in data['roots']['other']['children']:
@@ -45,8 +45,8 @@ def get_bookmarks(browser, path):
                     "profile": folder,
                   },
                   "subtitle": "{} - {}: {}".format(profileName, topChild['name'], child['url']),
-                  "title": "{}".format(child['name'].encode('utf-8')),
-                  "match": "{} {} {} {}".format(child['name'].encode('utf-8'), profileName, topChild['name'], child['url']),
+                  "title": "{}".format(child['name']),
+                  "match": "{} {} {} {}".format(child['name'], profileName, topChild['name'], child['url']),
                 })
   return bookmarks
 
@@ -64,4 +64,4 @@ for browser in browsers:
   prof = get_bookmarks(browser, path)
   bookmarks += prof
 
-print json.dumps({"items": bookmarks}, indent=2)
+print(json.dumps({"items": bookmarks}, indent=2))
